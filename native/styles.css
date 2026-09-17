@@ -1,0 +1,36 @@
+header {
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: solid 1px black;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+}
+
+h4 {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
